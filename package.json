@@ -1,0 +1,29 @@
+{
+  "name": "gulp-browserify-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kt3k/gulp-browserify-example.git"
+  },
+  "keywords": [
+    "gulp",
+    "browserify",
+    "example"
+  ],
+  "author": "Yoshiya Hinosawa <stibium121@gmail.com> (https://twitter.com/kt3k)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kt3k/gulp-browserify-example/issues"
+  },
+  "homepage": "https://github.com/kt3k/gulp-browserify-example#readme",
+  "devDependencies": {
+    "browserify": "^12.0.1",
+    "gulp": "^3.9.0",
+    "vinyl-map": "^1.0.1"
+  }
+}
