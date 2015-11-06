@@ -1,5 +1,5 @@
 
-var Promise = require('es6-promise');
+var Promise = require('es6-promise').Promise;
 
 global.wait = function (sec) {
 

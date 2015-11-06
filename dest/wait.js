@@ -1067,7 +1067,7 @@ process.umask = function() { return 0; };
 (function (global){
 'use strict';
 
-var Promise = require('es6-promise');
+var Promise = require('es6-promise').Promise;
 
 global.wait = function (sec) {
 
