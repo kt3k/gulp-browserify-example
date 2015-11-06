@@ -969,6 +969,7 @@
 
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
+
 },{"_process":2}],2:[function(require,module,exports){
 // shim for using process in browser
 
@@ -1077,4 +1078,6 @@ global.wait = function (sec) {
 };
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"es6-promise":1}]},{},[3]);
+
+},{"es6-promise":1}]},{},[3])
+//# sourceMappingURL=wait.js.map
