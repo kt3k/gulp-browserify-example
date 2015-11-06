@@ -5,8 +5,6 @@ var browserify = require('browserify');
 var exorcist = require('exorcist');
 var gutil = require('gulp-util');
 
-global.gutil = gutil;
-
 gulp.task('js', function () {
 
     return gulp.src('src/**/*.js', {base: 'src'})
