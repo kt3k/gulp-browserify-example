@@ -9,7 +9,7 @@ gulp.task('js', function () {
     return gulp.src('src/**/*.js', {base: 'src'})
 
         // transform file objects using gulp-map plugin
-        .pipe(plugins.map(function (file) {
+        .pipe(plugins.tap(function (file) {
 
             gutil.log('bundling ' + file.path);
 
@@ -17,9 +17,6 @@ gulp.task('js', function () {
             file.contents = browserify(file.path, {debug: true})
                 .transform('babelify', {presets: ['es2015']})
                 .bundle();
-
-            return file;
-
         }))
 
         // transform streaming contents into buffer contents (because gulp-sourcemaps does not support streaming contents)
