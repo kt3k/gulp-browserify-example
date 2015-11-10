@@ -8,7 +8,7 @@ gulp.task('js', function () {
 
     return gulp.src('src/**/*.js', {base: 'src'})
 
-        // transform file objects using gulp-map plugin
+        // transform file objects using gulp-tap plugin
         .pipe(plugins.tap(function (file) {
 
             gutil.log('bundling ' + file.path);
