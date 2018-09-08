@@ -15,7 +15,7 @@ gulp.task('js', function () {
 
             // replace file contents with browserify's bundle stream
             file.contents = browserify(file.path, {debug: true})
-                .transform('babelify', {presets: ['es2015']})
+                .transform('babelify', {presets: ['@babel/preset-env']})
                 .bundle();
         }))
 
